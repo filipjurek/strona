@@ -1,0 +1,68 @@
+/* Czcionka */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap'); 
+* 
+
+
+{ /* wyrównanie tła i tekstu */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header
+{
+    /* kompozycja tekstu na górze */
+    position: absolute;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+}
+header .logo
+{
+    /* wygląd tekstu na górze */
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{
+    /* ustawienie przycisków w prawym górnym poziomo i wyrówanie do góry */
+    display: flex;
+    align-self: center;
+}
+header ul li
+{
+    /* usunięcie podkreślenia i odstęp miedzy przyciskami w prawym górnym rogu */
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    /* kolorystyka i obramowanie przycisków w prawym górnym rogu */
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+/* wyświetlanie obramowania po nakierowaniu na przycisk w prawym górnym rogu */
+header ul li a:hover,
+header ul li a.active
+{ 
+    /* kolor obramowania */
+    background: #fff;
+    color: #2b1055;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+body {
+  background-color: black;

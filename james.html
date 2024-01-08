@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- Jęzkyk strony -->
+<html lang="pl">
+<head>
+    <!-- Polskie znaki -->
+<meta charset="UTF-8" />
+    <!-- Tytuł -->
+    <title>James Sunderland</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+        <header>
+            <!-- nazwa gry w lewym górnym rogu -->
+        <a href="index.html" class="logo">Silent Hill 2 Remake</a>
+            <!-- lista podstron w prawym górnym rogu -->
+            <ul>
+            <li><a href="index.html">Strona główna</a></li> 
+            <li><a href="james.html" class="active">Główny bohater</a></li>  
+            <li><a href="screenshoty.html">Screenshoty</a></li>    
+            </ul>
+        </header>
+    <section>
+        <!-- tło -->
+    <img src="james.jpg" id="james">
+    </section>
+        <!-- tekst poniżej -->
+    <div class="sec" id="sec">
+        <h2>James Sunderland</h2>
+    <p>fikcyjna postać i główny bohater drugiej części Silent Hill.<br><br>James przyjeżdża do miasta Silent Hill w poszukiwaniu swojej zmarłej przed trzema laty żony Mary, od której otrzymał list w którym napisała, że czeka na niego w ich specjalnym miejscu. Jak się okazało, oprócz Jamesa do miasta przybyły również trzy inne osoby - Angela Orosco, Eddie Dombrowski i mała Laura. Bohater odkrywa, że miasto, które jest całe zamglone, ma zablokowane ulice i jest pełne potworów. Tuż przed przybyciem na ulice Silent Hill spotyka Angelę, która ostrzega go przed miastem - jego chęć odnalezienia żony jednak jest silniejsza i postanawia stawić czoła wszystkiemu co stanie mu na drodze.<br><br>Przed przybyciem do parku Rosewater, w którym uważa czeka na niego jego żona, przemierza apartamenty, w których spotyka tajemnicze monstrum przypominające człowieka z piramidą na głowie. Poznaje również otyłego Eddiego i dziewczynkę Laurę, która zdaje się znać Mary i z jakiegoś powodu żywi urazę wobec Jamesa. Trafiając w końcu do parku Rosewater, nie odnajduje tam swojej żony, lecz spotyka Marię - kobietę, która jest łudząco podobna do jego żony, z kilkoma różnicami w wyglądzie. Bohater zdaje sobie sprawę, że specjalnym miejscem o którym napisała jego żona musi być hotel Lakeview, do którego rusza wraz z Marią.<br><br>Podczas próby złapania Laury wchodzą do szpitala Brookheaven, w którym bohater po raz drugi musi stawić czoła monstrum z piramidą na głowie. Ze starcia tylko mu udaje się przeżyć, potwór niestety zabija Marię. Wychodząc ze szpitala zastaje ulice Silent Hill w całkowitej ciemności, i znów podążając za Laurą trafia do Silent Hill Historical Society, a stamtąd do więzienia Toluca.<br><br><br>Trafiając do hotelu znajduje pomieszczenie, w którym spotyka Laurę, która jest wobec niego dużo milsza i pokazuje mu list otrzymany od Mary. List sugeruje Jamesowi, że Mary nie mogła umrzeć trzy lata temu, gdyż dziewczyna otrzymała go tydzień przed przybyciem bohatera do miasta. James znajduje kasetę którą nakręcił wraz z Mary i kieruje się w stronę pokoju 312, który wynajmowali podczas wakacji. Postanawia ją obejrzeć.<br><br>Po obejrzeniu filmu do pokoju wchodzi Laura. Gdy chce wraz z Jamesem w końcu odnaleźć Mary, ten wyjawia jej szokującą prawdę - to on zamordował Mary. Dziewczynka ucieka i zostawia mężczyznę samego. Głos Mary pochodzący z radia sugeruje mu, że kobieta gdzieś musi być w hotelu. Trafia na arenę, w której aż dwóch Piramidogłowych brutalnie i po raz ostatni morduje Marię. James, uświadomiwszy sobie powód istnienia tych potworów, staje z nimi do walki. Po pokonaniu Piramidogłowych, rusza na dach hotelu by stawić czoła manifestacji Mary i zakończyć swoją przygodę w Silent Hill.
+</p>
+    </div>
+        <!-- funkcja przejścia -->
+        <script>
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            james.style.top = value * 1 + 'px';
+        })
+        </script>
+    </body>
+</html>
